@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        .heading {
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .login-page {
+            margin: auto;
+            height: 50vh;
+            background: #f2f3f3;
+            padding: 50px;
+            width: 300px;
+
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .login-heading {
+            text-align: center;
+        }
+
+        .login-btn {
+            width: 324px;
+            border: none;
+            background: dodgerblue;
+            margin-top: 10px;
+            padding: 10px;
+            color: white;
+        }
+
+        .last-section {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">HTML CSS</h1>
+
+    <div class="login-page">
+        <h1 class="login-heading">Login</h1>
+        <div>
+            <input type="text" name="username" id="username" placeholder="username">
+        </div>
+        <div>
+            <input type="text" name="password" id="password" placeholder="password">
+        </div>
+        <div>
+            <button type="submit" class="login-btn">Login</button>
+        </div>
+        <div class="last-section">
+            <div>
+                <input type="checkbox" name="rememberMe" id="rememberMe"> <label>Remember Me</label>
+            </div>
+            <div>
+                <a href="">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
